@@ -28,10 +28,10 @@ class TestController extends Controller
   {
     $client = new SesClient([
       'version' => 'latest',
-      'region' => 'us-east-1',
+      'region' => config('services.ses.region'),
       'credentials' => [
-        'key' => 'AKIA5OD5QHYGXBXJ3AWB',
-        'secret' => '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',
+        'key' => config('services.ses.key'),
+        'secret' => config('services.ses.secret'),
       ],
     ]);
     for($i=1; $i<=2; $i++){
