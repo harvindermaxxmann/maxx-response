@@ -1,0 +1,11 @@
+[29-Jan-2024 18:37:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php:8) in /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php on line 24
+[08-Apr-2024 12:54:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php:100) in /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php on line 108
+[25-Oct-2024 15:24:35 UTC] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php on line 6
+[25-Oct-2024 15:24:35 UTC] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php on line 6
+[25-Oct-2024 15:24:35 UTC] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php on line 6
+[25-Oct-2024 15:24:35 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php on line 27
+[25-Oct-2024 15:24:35 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php on line 28
+[25-Oct-2024 15:24:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_app_info() in /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php:46
+Stack trace:
+#0 {main}
+  thrown in /home4/maxxcomm/public_html/crm-campaign/includes/login/main.php on line 46

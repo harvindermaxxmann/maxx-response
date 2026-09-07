@@ -1,0 +1,131 @@
+html, body{width:100%; height:auto; margin:0; padding:0; font-family: 'montserratregular'; color:#000; font-size:16px; font-weight:400;}
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.linhei-28{line-height: 28px;}
+    
+
+
+
+
+/* global */
+
+
+
+.leftmb{padding:50px 40px 0px 40px; background:#e4e4e6;}
+
+.leftmb hr{border-top: 1px solid rgba(0,0,0,1);}
+.leftmb h2{font-family: 'montserratsemibold'; font-weight:normal;}
+.leftmb strong, .leftmb b{font-family: 'montserratmedium'; font-size:18px;}
+.leftmb h4{font-family: 'montserratsemibold'; font-size:25px;}
+
+.rightmb{padding:50px 10px 0px 40px;}
+
+.rightmb .invoictable tr th{background:#f1f1f2; border:none;}
+.bord_topnone{border-top:none;}
+
+.rightmb .invoictable tr td{padding-top:20px; padding-bottom:20px;}
+.rightmb .invoictable tfoot{border-top:solid 2px #000; border-bottom:solid 2px #000;}
+.rightmb .invoictable tfoot h4{font-family: 'montserratsemibold'; font-size:18px;}
+.rightmb h1{font-family: 'montserratsemibold'; position: relative;}
+.rightmb h1:after{width:10%; content:""; height:2px; background:#f28900; position: absolute; bottom:0px; left:0px;}
+.rightmb h5{font-family: 'montserratsemibold'; position: relative; border-bottom:solid 2px #000; display:inline-block;}
+.pintx label input[type="checkbox"] + span{display:inline-block; padding:2px 3px; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+background:#f1f1f1; font-size:12px; cursor: pointer;
+}
+.pintx label input[type="checkbox"]:checked + span{background:#28a745; color:#fff;}
+.pintx label{position: relative;}
+.pintx label input[type="checkbox"]{position: absolute; right:0px;opacity:0; z-index: 99; cursor: pointer;}
+.actid{visibility: hidden;}
+.shoacc, .shoacc1{padding-left:10px;}
+
+
+@media only screen and (min-width: 1368px){
+	.container{max-width:1400px;}
+	
+}
+
+
+
+@media only screen and (min-width: 500px){
+	.leftmb .logo img {max-width:80%;}
+	
+}
+
+@media only screen and (max-width: 980px){
+	body{font-size:14px;}
+	.leftmb strong, .leftmb b{font-size:16px;}
+	.leftmb{padding:50px 20px 0px 20px;}
+}
+
+
+
+@media only screen and (max-width: 767px){
+	.mob_view{flex-direction:column;}
+	.leftmb, .rightmb{max-width:100%;}
+}
+@media only screen and (max-width: 599px){
+	.leftmb .logo img {max-width:80%;}
+	.rightmb{padding:50px 20px 0px 20px;}
+	
+	
+	
+}
+

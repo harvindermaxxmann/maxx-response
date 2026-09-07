@@ -1,0 +1,5 @@
+[27-Aug-2026 10:39:59 UTC] PHP Warning:  Undefined variable $list_id in /home2/maxxresponse/public_html/sendy/api/lists/get-lists.php on line 25
+[27-Aug-2026 10:40:31 UTC] PHP Warning:  Undefined variable $list_id in /home2/maxxresponse/public_html/sendy/api/lists/get-lists.php on line 25
+[27-Aug-2026 10:40:36 UTC] PHP Warning:  Undefined variable $list_id in /home2/maxxresponse/public_html/sendy/api/lists/get-lists.php on line 25
+[27-Aug-2026 10:41:45 UTC] PHP Warning:  Undefined variable $list_id in /home2/maxxresponse/public_html/sendy/api/lists/get-lists.php on line 25
+[27-Aug-2026 10:41:49 UTC] PHP Warning:  Undefined variable $list_id in /home2/maxxresponse/public_html/sendy/api/lists/get-lists.php on line 25

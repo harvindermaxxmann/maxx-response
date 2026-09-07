@@ -1,0 +1,10 @@
+[05-Jan-2024 10:04:21 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/maxxresponse/public_html/email-campaign-list/includes/login/main.php on line 8
+[05-Jan-2024 10:04:21 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/maxxresponse/public_html/email-campaign-list/includes/login/main.php on line 9
+[05-Jan-2024 10:04:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_app_info() in /home2/maxxresponse/public_html/email-campaign-list/includes/login/main.php:22
+Stack trace:
+#0 {main}
+  thrown in /home2/maxxresponse/public_html/email-campaign-list/includes/login/main.php on line 22
+[25-Aug-2026 12:10:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'maxxresp_sendy'@'localhost' (using password: YES) in /home2/maxxresponse/public_html/email-campaign-list/includes/functions.php(1) : eval()'d code on line 38
+[25-Aug-2026 12:10:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'maxxresp_sendy'@'localhost' (using password: YES) in /home2/maxxresponse/public_html/email-campaign-list/includes/functions.php(1) : eval()'d code on line 38
+[25-Aug-2026 12:10:50 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'maxxresp_sendy'@'localhost' (using password: YES) in /home2/maxxresponse/public_html/email-campaign-list/includes/functions.php(1) : eval()'d code on line 38
+[25-Aug-2026 12:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'maxxresp_sendy'@'localhost' (using password: YES) in /home2/maxxresponse/public_html/email-campaign-list/includes/functions.php(1) : eval()'d code on line 38

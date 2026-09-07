@@ -1,0 +1,4 @@
+[27-Aug-2026 10:42:51 UTC] PHP Warning:  Undefined variable $list_id in /home2/maxxresponse/public_html/sendy/api/brands/get-brands.php on line 18
+[27-Aug-2026 10:43:35 UTC] PHP Warning:  Undefined variable $list_id in /home2/maxxresponse/public_html/sendy/api/brands/get-brands.php on line 18
+[27-Aug-2026 10:46:03 UTC] PHP Warning:  Undefined variable $list_id in /home2/maxxresponse/public_html/sendy/api/brands/get-brands.php on line 18
+[27-Aug-2026 10:46:07 UTC] PHP Warning:  Undefined variable $list_id in /home2/maxxresponse/public_html/sendy/api/brands/get-brands.php on line 18
