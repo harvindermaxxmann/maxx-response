@@ -4,15 +4,22 @@
 	//----------------------------------------------------------------------------------//
 	
 	/*  Set the URL to your Sendy installation (without the trailing slash) */
-	define('APP_PATH', 'https://www.maxxresponse.com/email-campaign-list');
+	$host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';
+	$host_name = explode(':', $host)[0];
+	$is_local = in_array($host_name, array('localhost', '127.0.0.1'), true);
+	$local_path = 'http://'.$host.'/maxx-response/email-campaign-list';
+	define('APP_PATH', $is_local ? $local_path : 'https://www.maxxresponse.com/email-campaign-list');
 	
 	/*  MySQL database connection credentials (please place values between the apostrophes) */
-	$dbHost = 'localhost'; //MySQL Hostname
-	$dbUser = 'maxxresp_sendy'; //MySQL Username
-	$dbPass = 'j4NWN_Eb33Nd'; //MySQL Password
+	// $dbHost = 'localhost'; //MySQL Hostname
+	// $dbUser = 'maxxresp_sendy'; //MySQL Username
+	// $dbPass = 'j4NWN_Eb33Nd'; //MySQL Password
+	// $dbName = 'maxxresp_sendy'; //MySQL Database Name
+	
+	$dbHost = '192.168.1.2'; //MySQL Hostname
+	$dbUser = 'webuser'; //MySQL Username
+	$dbPass = 'M@xxmann@121'; //MySQL Password
 	$dbName = 'maxxresp_sendy'; //MySQL Database Name
-	
-	
 	//----------------------------------------------------------------------------------//	
 	//								  OPTIONAL SETTINGS
 	//----------------------------------------------------------------------------------//	
@@ -31,3 +38,4 @@
 	
 	//----------------------------------------------------------------------------------//
 ?>
+
